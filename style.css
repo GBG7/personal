@@ -17,6 +17,21 @@ body {
   z-index: 999;
 }
 
+.container {
+ margin-top: 55px;
+ margin-bottom: 55px;
+ margin-left: 35px;
+ margin-right: 35px;
+ text-align: center;
+ font-family: 'Quicksand';
+ font-size: 20px;
+ color: #50555c;	
+ h1{
+	
+ } 
+
+}
+
 ul {
   padding: 0;
   margin: 0;
