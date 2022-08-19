@@ -7,12 +7,25 @@
 	
 }
 
+p {
+	font-family: 'charukola-unicode-regular', sans-serif;
+	color: #50555c;
+}	
+
+
 .img-banner {
-	display: none;
+	width: 100%
 }
 
-.img-info {
+.img-info { /* article tag */
 	width: 100%;
+}
+
+.img-info h3{/* title for job */
+	padding:20px 30px 10px;
+	font-family:'charukola-unicode-regular', sans-serif;
+	font-size: 25px;
+	
 }
 
 .img-info h2{
@@ -29,16 +42,31 @@
 	color: #50555c;
 	line-height: 24px;
 }
-.img-2yb {
-	width: 100%; 	
+.img-2yb { /* 1st img beside text */
+	width: 25%; 	
+}
+/*satec astro div tags begin */
+	
+.astro-img { /* 1st img beside text */
+	padding-top: 20px;
+	width:20%;
+	float: left;
 }
 
+
 /*--------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width:810px) { /* tablet styling 810x */
+@media only screen and (min-width:810px) { /* tablet styling 810px */
 	.img-banner {
 		display: block;
 		width: 100%;
 		padding-bottom: 30px;
+	}
+	
+	.img-info h3{ /* title for job */
+		padding:20px 0px 0px 30px;
+		font-family:'charukola-unicode-regular', sans-serif;
+		font-size: 25px;
+		
 	}
 	
 	.wrapper {
@@ -46,7 +74,12 @@
 		margin: 0 auto; 
 	}
 	
-	.img-info h2{
+	.img-info { /* article tag */
+		width:70%;
+		float: right;
+	}
+	
+	.img-info h2{/* article tag */
 		text-align:center;
 		padding-top:100px;
 		font-family: 'charukola-unicode-regular', sans-serif;
@@ -54,30 +87,44 @@
 		line-height: 60px;
 			
 	}
-	.img-info p{
-		padding: 20px 0px 0px;
+	.img-info p{/* article tag */
+		padding: 20px 0px 0px 30px;
 		font-family: 'charukola-unicode-regular', sans-serif;
 		font-size: 16px;
 		color: #50555c;
-		line-height: 24px;
+		line-height: 30px;
 	}
 	
-	.img-2yb {
-		padding-top: 30px;
+	.img-2yb { /* 1st img beside text */
+		padding-top: 180px;
+		width:30%;
+		float: left;
 	}
-}
+	
+	/*satec astro div tags begin */
+	.astro-img { /* 1st img beside text */
+		padding-top: 760px;
+		width:30%;
+		float: left;
+	}
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) { /*computer screen styling */
 	.wrapper {
 		width: 1000px;
 	}
 	
-	.img-info {
-		width:50%;
+	.img-info { /* article tag */
+		width:70%;
 		float: right;
 	}
 	
-	.img-info h2{
+	.img-info h3{ /* title for job */
+		padding:20px 0px 0px 30px;
+		font-family:'charukola-unicode-regular', sans-serif;
+		font-size: 25px;
+		
+	}	
+	.img-info h2{/* article tag */
 		text-align:center;
 		padding-top:100px;
 		font-family: 'charukola-unicode-regular', sans-serif;
@@ -85,17 +132,26 @@
 		line-height: 60px;
 			
 	}
-	.img-info p{
+	.img-info p{/* article tag */
 		padding: 20px 0px 0px 30px;
 		font-family: 'charukola-unicode-regular', sans-serif;
 		font-size: 16px;
 		color: #50555c;
-		line-height: 24px;
+		line-height: 30px;
 	}
 	
-	.img-2yb {
-		padding-top: 0px;
-		width:50%;
+	.img-2yb { /* 1st img beside text */
+		padding-top: 180px;
+		width:20%;
+		float: left;
+	}
+	
+	
+	/*satec astro div tags begin */
+	
+	.astro-img { /* 1st img beside text */
+		padding-top: 470px;
+		width:25%;
 		float: left;
 	}
 }
