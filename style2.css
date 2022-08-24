@@ -1,0 +1,219 @@
+
+@media only screen and (min-width: 100px){
+
+* {
+  /* default is phone screen styling */
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+p {
+  font-family: 'charukola-unicode-regular', sans-serif;
+  color: #50555c;
+}
+
+.img-banner {
+  width: 100%
+}
+
+.img-info {
+  /* article tag */
+  width: 100%;
+}
+
+.img-info h3 {
+  /* title for job */
+  padding: 20px 30px 10px;
+  font-family: 'charukola-unicode-regular', sans-serif;
+  font-size: 25px;
+}
+
+.img-info h2 {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'charukola-unicode-regular', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: 'charukola-unicode-regular', sans-serif;
+  font-size: 16px;
+  color: #50555c;
+  line-height: 24px;
+}
+
+.img-2yb {
+  /* 1st img beside text */
+  width: 25%;
+  float: right;
+}
+
+
+/*satec astro div tags begin */
+
+.astro-img {
+  /* 1st img beside text */
+  padding-top: 20px;
+  width: 20%;
+  float: left;
+}
+
+
+/*
+    the css code that controls the images is:
+*/
+
+.img-2yb {
+  /* 1st img beside text */
+  width: 80%;
+  padding: 30px 55px 10px; 	
+}
+
+
+/*satec astro div tags begin */
+
+.astro-img {
+  /* 1st img beside text */
+  padding-top: 20px;
+  width: 75%;
+  padding: 30px 30px 10px;
+  
+} 
+}
+/*--------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:800px) { /* tablet styling 800px */
+	.wrapper {
+		width: 800px;
+		margin: 0 auto;
+	}
+	
+	.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
+		display: flex;
+		justify-content: space-around;
+		}
+	
+	.image-holder { /* class for all the images used. they're wrapped in a div */
+			width: 25%;
+			padding-right: 0%;
+		  }
+		  
+		  
+	.img-info { /* tag for all text under my journey section */
+		width:70%;
+		
+	}
+	
+	.img-info h3{ /* tag for all text under my journey section */
+		padding:40px 0px 0px 30px;
+		font-family:'charukola-unicode-regular', sans-serif;
+		font-size: 25px;
+		
+	}	
+	.img-info h2{/* tag for all text under my journey section */
+		text-align:center;
+		padding-top:100px;
+		padding-bottom:50px;
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 40px;
+		line-height: 60px;
+			
+	}
+	.img-info p{/* tag for all text under my journey section */
+		padding: 20px 0px 0px 30px;
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 16px;
+		color: #50555c;
+		line-height: 30px;
+	}
+	
+	.img-2yb { /*satec @WA porter img */
+		width: 100%;
+	  }
+
+	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
+		padding-bottom: 10%;
+		padding-right: 10%
+	}
+	
+	
+	/*satec astro div tags begin */
+	
+	.astro-img { /* satec astro image  */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+	
+}
+/*--------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1000px) { /*computer screen styling */
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	
+	.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
+		display: flex;
+		justify-content: space-between;
+		}
+	
+	.image-holder { /* class for all the images used. they're wrapped in a div */
+			width: 25%;
+			padding-right: 5%;
+		  }
+		  
+		  
+	.img-info { /* tag for all text under my journey section */
+		width:70%;
+		
+	}
+	
+	.img-info h3{ /* tag for all text under my journey section */
+		padding:20px 0px 0px 30px;
+		font-family:'charukola-unicode-regular', sans-serif;
+		font-size: 25px;
+		
+	}	
+	.img-info h2{/* tag for all text under my journey section */
+		text-align:center;
+		padding-top:100px;
+		padding-bottom:50px;
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 40px;
+		line-height: 60px;
+			
+	}
+	.img-info p{/* tag for all text under my journey section */
+		padding: 20px 0px 0px 30px;
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 16px;
+		color: #50555c;
+		line-height: 30px;
+	}
+	
+	.img-2yb { /*satec @WA porter img */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	  }
+
+	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
+		padding-bottom: 10%;
+	}
+	
+	
+	/*satec astro div tags begin */
+	
+	.astro-img { /* satec astro image  */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+}
+
