@@ -16,9 +16,20 @@ p {
   color: #50555c;
 }
 
-.img-banner {
-  width: 100%
+.title { /* my journey title */
+	font-family: 'charukola-sans-regular', sans-serif;
+	text-align: center;
+	padding-bottom: 20%;
+
 }
+
+.img-banner { /* top image aka banner img */
+	width: 100vw;
+	height: 100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-bottom:30%;
+  }
 
 .img-info {
   /* article tag */
@@ -48,43 +59,43 @@ p {
   line-height: 24px;
 }
 
-.img-2yb {
-  /* 1st img beside text */
-  width: 25%;
-  float: right;
-}
-
-
-/*satec astro div tags begin */
-
-.astro-img {
-  /* 1st img beside text */
-  padding-top: 20px;
-  width: 20%;
-  float: left;
-}
-
 
 /*
     the css code that controls the images is:
 */
-
+/*img div tags begin */
 .img-2yb {
-  /* 1st img beside text */
-  width: 80%;
-  padding: 30px 55px 10px; 	
+  /* 1st g beside text */
+  width: 75%;
+  padding: 30px 30px 10px; 	
 }
-
-
-/*satec astro div tags begin */
 
 .astro-img {
   /* 1st img beside text */
-  padding-top: 20px;
   width: 75%;
   padding: 30px 30px 10px;
-  
-} 
+	} 
+
+.clubs-img { /* satec club image */
+	width: 75%;
+	padding: 30px 30px 10px;
+}
+.volunteer-img{ /* volunteer image */
+	width: 75%;
+	padding: 30px 30px 10px;
+}
+.competition-img { /* competition image */
+	width: 75%;
+	padding: 30px 30px 10px;
+}
+.work-img { /* work image */
+	width: 75%;
+	padding: 30px 30px 10px;
+}
+.sport-img { /* sport image */
+	width: 75%;
+	padding: 30px 30px 10px;
+}
 }
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:800px) { /* tablet styling 800px */
@@ -92,7 +103,20 @@ p {
 		width: 800px;
 		margin: 0 auto;
 	}
-	
+	.title{
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		padding-bottom: 10%;
+		
+	}
+	.img-banner { /* top image aka banner img */
+		width: 100vw;
+		height: 100vh;
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding-bottom:15%;
+	  }
+
 	.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
 		display: flex;
 		justify-content: space-around;
@@ -131,25 +155,49 @@ p {
 		color: #50555c;
 		line-height: 30px;
 	}
-	
-	.img-2yb { /*satec @WA porter img */
-		width: 100%;
-	  }
-
 	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
 		padding-bottom: 10%;
 		padding-right: 10%
 	}
+	/* img div tags begin */
 	
-	
-	/*satec astro div tags begin */
+	.img-2yb { /*satec @WA porter img */
+		padding-top: 40px;
+		width: 100%;
+		height: auto;
+	  }
 	
 	.astro-img { /* satec astro image  */
-		padding-top: 20px;
+		padding-top: 40px;
+		width: 100%;
+		height: auto;
+	}
+	.clubs-img { /* satec club image */
+		padding-top: 40px;
+		width: 100%;
+		height: auto;
+	}
+	.volunteer-img { /* satec volunteer image */
+		padding-top: 40px;
+		width: 100%;
+		height: auto;
+	}
+	.competition-img { /* satec competition image */
+		padding-top: 40px;
+		width: 100%;
+		height: auto;
+	}
+	.work-img { /* job imges */
+		padding-top: 40px;
 		width: 100%;
 		height: auto;
 	}
 	
+	.sport-img { /* sport imges */
+		padding-top: 40px;
+		width: 100%;
+		height: auto;
+	}
 }
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) { /*computer screen styling */
@@ -157,7 +205,22 @@ p {
 		width: 1000px;
 		margin: 0 auto;
 	}
+
+	.title{
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		padding-bottom: 15%;
+		
+	}
 	
+	.img-banner { /* top image aka banner img */
+		width: 100vw;
+		height: 100vh;
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding-bottom:5%;
+	  }
+
 	.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
 		display: flex;
 		justify-content: space-between;
@@ -170,8 +233,7 @@ p {
 		  
 		  
 	.img-info { /* tag for all text under my journey section */
-		width:70%;
-		
+		width:70%;	
 	}
 	
 	.img-info h3{ /* tag for all text under my journey section */
@@ -196,21 +258,45 @@ p {
 		color: #50555c;
 		line-height: 30px;
 	}
-	
+
+	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
+		padding-bottom: 10%;
+	}
+
+	/* le images tags begin */
 	.img-2yb { /*satec @WA porter img */
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
 	  }
-
-	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
-		padding-bottom: 10%;
-	}
-	
-	
-	/*satec astro div tags begin */
 	
 	.astro-img { /* satec astro image  */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+
+	.clubs-img { /* satec club image */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.volunteer-img { /* satec volunteer image */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.competition-img { /* satec competition image */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.work-img { /* job imges */
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.sport-img { /* sport imges */
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
