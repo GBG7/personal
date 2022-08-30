@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 100px){
+@media only screen and (min-width: 100px){ /* mobile screen */
 
 * {
   /* default is phone screen styling */
@@ -11,6 +11,28 @@
   width: 100%;
 }
 
+.banner-words{
+	text-align: center;
+	font-family:'charukola-unicode-regular', sans-serif;
+	padding-top: 60%;
+	padding-bottom: 0%;
+	color: white;
+}
+
+.bg-img2{
+	background-image: url(img/purplecitybg);
+	background-attachment: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top: 0%;
+}
+
+.wrapper2{
+	width: 100vw;
+	margin: 0 auto;
+}
 p {
   font-family: 'charukola-unicode-regular', sans-serif;
   color: #50555c;
@@ -19,16 +41,27 @@ p {
 .title { /* my journey title */
 	font-family: 'charukola-sans-regular', sans-serif;
 	text-align: center;
+	padding-top: 20%;
 	padding-bottom: 20%;
 
 }
 
+.p-title {
+	text-align: center;
+	font-family:'charukola-unicode-regular', sans-serif;
+	padding-top: 20%;
+	padding-bottom: 15%;
+	color: white;
+}
+
 .img-banner { /* top image aka banner img */
+	background-image: url(img/lainimg2);
+	background-attachment: fixed;
 	width: 100vw;
 	height: 100vh;
 	background-size:cover;
 	background-repeat:no-repeat;
-	padding-bottom:30%;
+	padding-bottom:5%;
   }
 
 .img-info {
@@ -57,6 +90,20 @@ p {
   font-size: 16px;
   color: #50555c;
   line-height: 24px;
+}
+
+.img-info ul{/* list css styling */
+	padding: 20px 0px 0px 30px;
+	font-family: 'charukola-unicode-regular', sans-serif;
+	font-size: 16px;
+	color: #50555c;
+	line-height: 30px;
+	padding-left: 10%;
+	padding-right:10%;
+	padding-bottom: 10%;
+}
+.img-info li{
+	line-height: 30px;
 }
 
 
@@ -96,6 +143,30 @@ p {
 	width: 75%;
 	padding: 30px 30px 10px;
 }
+
+/* who i am tags begin mobile*/
+
+.whoiam-section{
+	display:flex;
+	flex-direction: column;
+	padding: 0% 15% 20% 15%; /* top right bottom left */
+	text-align: center;
+	
+}
+.column {
+	display:flex;
+	flex-direction:column;
+	text-align: center;
+	padding:10% 10% 10% 10%;
+	background-color: white;
+	border: 1px solid #D3D3D3;
+	
+}
+
+.column h1{
+	color: red;
+}
+
 }
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:800px) { /* tablet styling 800px */
@@ -103,15 +174,48 @@ p {
 		width: 800px;
 		margin: 0 auto;
 	}
+
+	.banner-words{
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		padding-top: 30%;
+		padding-bottom: 0%;
+		color: white;
+	}
+
+	.bg-img2{
+		background-image: url(img/purplecitybg);
+		background-attachment: fixed;
+		width: 100vw;
+		height: 100vh;
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding-top: 0%;
+	}
+	
+	.wrapper2{
+		width: 100vw;
+		margin: 0 auto;
+	}
+
 	.title{
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
-		padding-bottom: 10%;
-		
+		padding-bottom: 10%;	
+	}
+
+	.p-title{
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		padding-top: 20%;
+		padding-bottom: 15%;
+		color: white;
 	}
 	.img-banner { /* top image aka banner img */
+		background-image: url(img/ipadimg1);
+		background-attachment: fixed;
 		width: 100vw;
-		height: 100vh;
+		height: 1080px;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-bottom:15%;
@@ -150,10 +254,25 @@ p {
 	}
 	.img-info p{/* tag for all text under my journey section */
 		padding: 20px 0px 0px 30px;
+		padding-right: 30px;
 		font-family: 'charukola-unicode-regular', sans-serif;
 		font-size: 16px;
 		color: #50555c;
 		line-height: 30px;
+	}
+
+	.img-info ul{/* list css styling */
+		padding: 20px 0px 0px 30px;
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 16px;
+		color: #50555c;
+		line-height: 30px;
+		padding-left: 10%;
+		padding-bottom: 10%;
+		padding-right: 10%;
+	}
+	.img-info li{
+		line-height: 35px;
 	}
 	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
 		padding-bottom: 10%;
@@ -198,11 +317,56 @@ p {
 		width: 100%;
 		height: auto;
 	}
+	/* who i am tags begin mobile*/
+
+	.whoiam-section{
+		display:flex;
+		flex-direction: row;
+		padding: 0% 5% 0% 5%; /* top right bottom left */
+		text-align: center;
+		
+	}
+	.column {
+		display:flex;
+		flex-direction:column;
+		text-align: center;
+		padding:10% 10% 10% 10%;
+		background-color: white;
+		border: 1px solid #D3D3D3;
+		
+	}
+
+	.column h1{
+		color: red;
+	}
 }
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) { /*computer screen styling */
 	.wrapper {
 		width: 1000px;
+		margin: 0 auto;
+	}
+
+	.banner-words{
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		padding-top: 40%;
+		padding-bottom: 0%;
+		color: white;
+	}
+
+	.bg-img2{
+		background-image: url(img/purplecitybg);
+		background-attachment: fixed;
+		width: 100vw;
+		height: 100vh;
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding-top: 0%;
+	}
+	
+	.wrapper2{
+		width: 100vw;
 		margin: 0 auto;
 	}
 
@@ -212,9 +376,18 @@ p {
 		padding-bottom: 15%;
 		
 	}
+	.p-title{
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		padding-top: 10%;
+		padding-bottom: 15%;
+		color: white;
+	}
 	
 	.img-banner { /* top image aka banner img */
-		width: 100vw;
+		background-image: url(img/eyeimg.webp);
+		background-attachment:fixed;
+		width:100vw;
 		height: 100vh;
 		background-size:cover;
 		background-repeat:no-repeat;
@@ -229,9 +402,10 @@ p {
 	.image-holder { /* class for all the images used. they're wrapped in a div */
 			width: 25%;
 			padding-right: 5%;
+			
 		  }
-		  
-		  
+			
+			
 	.img-info { /* tag for all text under my journey section */
 		width:70%;	
 	}
@@ -258,7 +432,18 @@ p {
 		color: #50555c;
 		line-height: 30px;
 	}
-
+	.img-info ul{/* list css styling */
+		padding: 20px 0px 0px 30px;
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 16px;
+		color: #50555c;
+		line-height: 30px;
+		padding-left: 10%;
+		padding-bottom: 10%;
+	}
+	.img-info li{
+		line-height: 35px;
+	}
 	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
 		padding-bottom: 10%;
 	}
@@ -300,6 +485,31 @@ p {
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
+	}
+
+
+	/* who i am tags begin mobile*/
+
+	.whoiam-section{
+		display:flex;
+		flex-direction: row;
+		padding: 0% 10% 20% 10%; /* top right bottom left */
+		text-align: center;
+		justify-content: center;
+		
+	}
+	.column {
+		display:flex;
+		flex-direction:column;
+		text-align: center;
+		padding: 10% 10% 10% 10%;
+		background-color: white;
+		border: 1px solid #D3D3D3;
+		
+	}
+
+	.column h1{
+		color: red;
 	}
 }
 
