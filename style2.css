@@ -23,9 +23,9 @@
 	background-image: url(img/purplecitybg);
 	background-attachment: fixed;
 	width: 100vw;
-	height: 100vh;
+	height: 300vh;
 	background-size:cover;
-	background-repeat:no-repeat;
+	background-repeat: repeat-y;
 	padding-top: 0%;
 }
 
@@ -146,11 +146,21 @@ p {
 
 /* who i am tags begin mobile*/
 
+.box-imgs{
+	width: 40%;
+	height:40%;
+	margin-left: auto;
+  	margin-right: auto;
+	padding-bottom: 15%;
+}
+
 .whoiam-section{
 	display:flex;
 	flex-direction: column;
-	padding: 0% 15% 20% 15%; /* top right bottom left */
-	text-align: center;
+	padding: 0% 15% 0% 15%; /* top right bottom left */
+	text-align: center !important;
+	
+	
 	
 }
 .column {
@@ -158,16 +168,35 @@ p {
 	flex-direction:column;
 	text-align: center;
 	padding:10% 10% 10% 10%;
-	background-color: white;
+	background-color: #e4f6f8;
 	border: 1px solid #D3D3D3;
+	border-radius: 25px;
 	
 }
 
 .column h1{
-	color: red;
+	text-align:center;
+	padding-top:0%;
+	padding-bottom:10%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	line-height: 40px;		
+	
 }
 
+.green-text{
+	text-align: center;
+	padding: 50px 20px 10px; /* top right bottom left */
+	font-family: 'charukola-unicode-regular', sans-serif;
+	font-size: 16px;
+	color: #50555c;
+	line-height: 24px;
 }
+.column p{
+	text-align:center;
+}
+}
+
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:800px) { /* tablet styling 800px */
 	.wrapper {
@@ -187,7 +216,7 @@ p {
 		background-image: url(img/purplecitybg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 100vh;
+		height: 200vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -317,7 +346,15 @@ p {
 		width: 100%;
 		height: auto;
 	}
-	/* who i am tags begin mobile*/
+	/* who i am tags begin tablet*/
+
+	.box-imgs{
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30%;
+	}
 
 	.whoiam-section{
 		display:flex;
@@ -331,15 +368,22 @@ p {
 		flex-direction:column;
 		text-align: center;
 		padding:10% 10% 10% 10%;
-		background-color: white;
+		background-color: #e4f6f8;
 		border: 1px solid #D3D3D3;
 		
 	}
 
 	.column h1{
-		color: red;
+		text-align:center;
+		padding-top:0%;
+		padding-bottom:10%;
+		padding-left: 10%;
+		padding-right: 10%;
+		font-family: 'Indie Flower', cursive;
+		font-size: 30px;
+		line-height: 40px;
 	}
-}
+
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) { /*computer screen styling */
 	.wrapper {
@@ -359,7 +403,7 @@ p {
 		background-image: url(img/purplecitybg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 100vh;
+		height: 150vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -488,14 +532,24 @@ p {
 	}
 
 
-	/* who i am tags begin mobile*/
+	/* who i am tags begin laptop*/
+
+	.box-imgs{
+		width: 50%;
+		height: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30%;
+	}
+	
 
 	.whoiam-section{
 		display:flex;
 		flex-direction: row;
-		padding: 0% 10% 20% 10%; /* top right bottom left */
+		padding: 0% 10% 0% 10%; /* top right bottom left */
 		text-align: center;
 		justify-content: center;
+		
 		
 	}
 	.column {
@@ -503,13 +557,24 @@ p {
 		flex-direction:column;
 		text-align: center;
 		padding: 10% 10% 10% 10%;
-		background-color: white;
 		border: 1px solid #D3D3D3;
+		background-color: #e4f6f8;
+		
+
 		
 	}
 
 	.column h1{
-		color: red;
+		text-align:center;
+		padding-top:0%;
+		padding-bottom:10%;
+		font-family: 'Indie Flower', cursive;  
+		font-size: 30px;
+		line-height: 40px;			
+	}
+
+	.column p{
+	
 	}
 }
 
