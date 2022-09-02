@@ -11,6 +11,14 @@
   width: 100%;
 }
 
+
+/* css for the socials on the bottom right side  */
+.links { 
+	display:none;
+}
+	
+
+
 .banner-words{
 	text-align: center;
 	font-family:'charukola-unicode-regular', sans-serif;
@@ -212,6 +220,35 @@ p {
 		color: white;
 	}
 
+	/* css for the socials on the bottom right side  */
+	.links { 
+		display: flex;
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		position: fixed; 
+		line-height: 40px;
+		bottom: 100px; /* code controlling le uip & down movement  and left and right below*/
+		left: 5px;
+		border-bottom: 1px solid #ccc;
+	}
+	.links ul {
+		list-style-type: none;
+	}
+	.size {
+		width:25px;
+		height: 25px;
+	}
+
+	.link-line {
+		background-color: #ccc;
+		border:#50555c solid 0px;
+		width: 3px;
+		height: 85px;
+		position: fixed; 
+		bottom: 15px; /* code controlling le uip & down movement  and left and right below*/
+		left: 17px;
+		
+	}
 	.bg-img2{
 		background-image: url(img/purplecitybg);
 		background-attachment: fixed;
@@ -414,6 +451,31 @@ p {
 		margin: 0 auto;
 	}
 
+	/* css for the socials on the bottom right side  */
+	.links { 
+		display: flex;
+		text-align: center;
+		font-family:'charukola-unicode-regular', sans-serif;
+		position: fixed; 
+		line-height: 40px;
+		bottom: 100px; /* code controlling le uip & down movement  and left and right below*/
+		left: 50px;
+		border-bottom: 2px solid #ccc;
+	}
+	.links ul {
+		list-style-type: none;
+	}
+
+	.link-line {
+		background-color: #ccc;
+		border:#50555c solid 0px;
+		width: 3px;
+		height: 85px;
+		position: fixed; 
+		bottom: 15px; /* code controlling le uip & down movement  and left and right below*/
+		left: 62px;
+		
+	}
 	.title{
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
