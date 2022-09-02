@@ -31,12 +31,12 @@
 	background-image: url(img/purplecitybg);
 	background-attachment: fixed;
 	width: 100vw;
-	height: 300vh;
+	height: 230vh;
 	background-size:cover;
 	background-repeat: repeat-y;
 	padding-top: 0%;
 }
-
+/* mobile styling */
 .wrapper2{
 	width: 100vw;
 	margin: 0 auto;
@@ -46,20 +46,22 @@ p {
   color: #50555c;
 }
 
-.title { /* my journey title */
+.title { /* my journey title mobile*/
 	font-family: 'charukola-sans-regular', sans-serif;
 	text-align: center;
 	padding-top: 20%;
 	padding-bottom: 20%;
+	letter-spacing: 3px;
 
 }
 
-.p-title {
+.p-title { /* titles mobile */
 	text-align: center;
 	font-family:'charukola-unicode-regular', sans-serif;
 	padding-top: 20%;
 	padding-bottom: 15%;
 	color: white;
+	letter-spacing: 3px;
 }
 
 .img-banner { /* top image aka banner img */
@@ -203,6 +205,53 @@ p {
 .column p{
 	text-align:center;
 }
+/* What makes me unique section mobile*/
+
+@font-face {
+	font-family: brutal-type;
+	src: url(fonts/BrutalType-Medium.ttf);	
+}
+
+
+/* bg img unique section mobile  */
+.bg-img3{
+	background-image: url(img/animebg3phone);
+	background-attachment: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top: 0%;
+}
+/* words for all p unique sectioin  mopbile*/
+.unique-section p {
+	padding: 0px 30px 20px;
+	font-family: 'charukola-unicode-regular';
+	font-size: 16px;
+	color: #50555c;
+	line-height: 24px;
+  }
+ /* words for the grey text my project mobile */
+p.project-title {
+	padding: 0px 30px 20px;
+	font-family: brutal-type;
+	font-size: 20px;
+	color: #7e8186;
+	line-height: 24px;
+	letter-spacing: 3px;
+	
+}
+ /* big black text mobile  */
+p.big-black-title {
+	padding: 30px 0px 20px 25px;
+	font-family: 'Roboto Slab', serif;	
+	font-size: 35px;
+	color: black;
+	line-height: 24px;
+	
+}
+
+  
 }
 
 /*--------------------------------------------------------------------------------------------------*/
@@ -215,7 +264,7 @@ p {
 	.banner-words{
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
-		padding-top: 30%;
+		padding-top: 60%;
 		padding-bottom: 0%;
 		color: white;
 	}
@@ -249,6 +298,7 @@ p {
 		left: 17px;
 		
 	}
+	/* tablet sstylign */
 	.bg-img2{
 		background-image: url(img/purplecitybg);
 		background-attachment: fixed;
@@ -264,18 +314,22 @@ p {
 		margin: 0 auto;
 	}
 
-	.title{
+	.title{ /* my journey tablet */
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
-		padding-bottom: 10%;	
+		padding-bottom: 10%;
+		letter-spacing: 3px;	
 	}
 
-	.p-title{
+	.p-title{ /* who i am title tablet */
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
 		padding-top: 20%;
 		padding-bottom: 15%;
 		color: white;
+		letter-spacing: 3px;
+
+
 	}
 	.img-banner { /* top image aka banner img */
 		background-image: url(img/ipadimg1);
@@ -390,7 +444,7 @@ p {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 30%;
+		padding-bottom: 20%;
 	}
 
 	.whoiam-section{
@@ -421,6 +475,54 @@ p {
 		line-height: 40px;
 	}
 
+	/* What makes me unique section  TABLET */
+
+	@font-face {
+		font-family: brutal-type;
+		src: url(fonts/BrutalType-Medium.ttf);	
+	}
+
+
+/* bg img 3 uniquye section tablet  */
+	.bg-img3{
+		background-image: url(img/animebg3phone);
+		background-attachment: fixed;
+		width: 100vw;
+		height: 100vh;
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding-top: 0%;
+	}
+/* tablet */
+	.unique-section p {
+		padding: 0px 30px 20px;
+		font-family: 'charukola-unicode-regular';
+		font-size: 16px;
+		color: #50555c;
+		line-height: 24px;
+	}
+/* my journey grey text tablet  */
+	p.project-title {
+		padding: 0px 30px 20px 50px;
+		font-family: brutal-type;
+		font-size: 20px;
+		color: #7e8186;
+		line-height: 24px;
+		letter-spacing: 3px;
+		
+	}
+/* bbt tablet  */
+	p.big-black-title {
+		padding: 30px 0px 20px 45px;
+		font-family: 'Roboto Slab', serif;	
+		font-size: 50px;
+		color: black;
+		line-height: 24px;
+		
+	}
+
+
+}
 /*--------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) { /*computer screen styling */
 	.wrapper {
@@ -445,7 +547,7 @@ p {
 		background-repeat:no-repeat;
 		padding-top: 0%;
 	}
-	
+	/* pc styling */
 	.wrapper2{
 		width: 100vw;
 		margin: 0 auto;
@@ -476,18 +578,20 @@ p {
 		left: 62px;
 		
 	}
-	.title{
+	.title{ /* my journey pc */
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
 		padding-bottom: 15%;
+		letter-spacing: 3px;
 		
 	}
-	.p-title{
+	.p-title{ /* who i am title pc actual */
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
 		padding-top: 10%;
-		padding-bottom: 15%;
+		padding-bottom: 10%;
 		color: white;
+		letter-spacing: 3px;
 	}
 	
 	.img-banner { /* top image aka banner img */
@@ -638,5 +742,54 @@ p {
 	.column p{
 	
 	}
+
+		/* What makes me unique section */
+
+	@font-face {
+		font-family: brutal-type;
+		src: url(fonts/BrutalType-Medium.ttf);	
+	}
+
+
+	/* anime white img for unique seciton PC */
+	.bg-img3{ 
+		background-image: url(img/bgimg3pc.jpg);
+		background-attachment: fixed;
+		width: 100vw;
+		height: 100vh;
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding-top: 0%;
+
+	}
+	/* <p> for unique section PC  */
+	.unique-section p {
+		padding: 0px 30px 20px;
+		font-family: 'charukola-unicode-regular';
+		font-size: 16px;
+		color: #50555c;
+		line-height: 24px;
+	}
+	/* grey "my projects" title PC */
+	p.project-title {
+		padding: 0px 300px 20px;
+		font-family: brutal-type;
+		font-size: 20px;
+		color: #7e8186;
+		line-height: 24px;
+		letter-spacing: 3px;
+		
+	}
+	/* big black title PC */
+	p.big-black-title {
+		padding: 30px 0px 20px 290px;
+		font-family: 'Roboto Slab', serif;	
+		font-size: 60px;
+		color: black;
+		line-height: 24px;
+		
+	}
+
+
 }
 
