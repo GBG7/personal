@@ -218,7 +218,7 @@ p {
 	background-image: url(img/animebg3phone);
 	background-attachment: fixed;
 	width: 100vw;
-	height: 600vh;
+	height: 1100vh;
 	background-size:cover;
 	background-repeat:no-repeat;
 	padding-top: 0%;
@@ -233,7 +233,7 @@ p {
 	padding: 30px;
 	font-family: 'charukola-unicode-regular';
 	font-size: 16px;
-	color: #50555c;
+	color: #3c4046;
 	line-height: 24px;
 	text-align: center;
   }
@@ -256,6 +256,13 @@ img.tcimg2 {
 	height:auto;
 	justify-content:flex-end;
 	padding-left: 20%;
+}
+/* phone  */
+.xkcd-meme{
+	display:flex;
+	width: 100%;
+	height: auto;
+	padding-left: 8%;
 }
 
 
@@ -526,16 +533,25 @@ p.big-black-title {
 		background-image: url(img/animebg3phone);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 500vh;
+		height: 700vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
 	}
+
+	/* phone  */
+	.xkcd-meme{
+		display:flex;
+		width: 100%;
+		height: auto;
+		padding-left: 12%;
+	}
+
 /* tablet */
 	.unique-section p {
 		padding: 30px 70px 20px;
 		font-family: 'charukola-unicode-regular';
-		font-size: 16px;
+		font-size: 18px;
 		color: #50555c;
 		line-height: 24px;
 	}
@@ -703,14 +719,14 @@ p.big-black-title {
 	.img-info p{/* tag for all text under my journey section */
 		padding: 20px 0px 0px 30px;
 		font-family: 'charukola-unicode-regular', sans-serif;
-		font-size: 16px;
+		font-size: 20px;
 		color: #50555c;
-		line-height: 30px;
+		line-height: 35px;
 	}
 	.img-info ul{/* list css styling */
 		padding: 20px 0px 0px 30px;
 		font-family: 'charukola-unicode-regular', sans-serif;
-		font-size: 16px;
+		font-size: 20px;
 		color: #50555c;
 		line-height: 30px;
 		padding-left: 10%;
@@ -794,10 +810,11 @@ p.big-black-title {
 		padding-top:0%;
 		padding-bottom:10%;
 		font-family: 'Indie Flower', cursive;  
-		font-size: 30px;
+		font-size: 40px;
 		line-height: 40px;			
 	}
 	.column p{
+		font-size: 20px;
 	}
 
 /* What makes me unique section */
@@ -813,19 +830,26 @@ p.big-black-title {
 		background-image: url(img/bgimg3pc.jpg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 400vh;
+		height: 700vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
 
 	}
+
+	.xkcd-meme{
+		display:flex;
+		width: 100%;
+		height: auto;
+		padding-left: 25%;
+	}
 	/* <p> for unique section PC  */
 	.unique-section p {
-		padding: 3% 15% 2%;
+		padding: 3% 12.2% 2%;
 		font-family: 'charukola-unicode-regular';
-		font-size: 16px;
+		font-size: 20px;
 		color: #50555c;
-		line-height: 24px;
+		line-height: 35px;
 		text-align: left;
 	}
 
@@ -871,7 +895,7 @@ p.big-black-title {
 		padding-top: 50px;
 		display:flex;
 		justify-content:flex-start;
-		padding-left: 15%;
+		padding-left: 12.2%;
 	}
 	.iframe-container iframe {
 		width: 760px;
