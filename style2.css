@@ -218,39 +218,77 @@ p {
 	background-image: url(img/animebg3phone);
 	background-attachment: fixed;
 	width: 100vw;
-	height: 100vh;
+	height: 600vh;
 	background-size:cover;
 	background-repeat:no-repeat;
 	padding-top: 0%;
 }
+/* images*/
+.unique-section2{
+	display:flex;
+	justify-content: space-between;
+}
 /* words for all p unique sectioin  mopbile*/
 .unique-section p {
-	padding: 0px 30px 20px;
+	padding: 30px;
 	font-family: 'charukola-unicode-regular';
 	font-size: 16px;
 	color: #50555c;
 	line-height: 24px;
+	text-align: center;
   }
+/* code for images in unique section  */
+.unique-section2 img {
+	float: left;
+	width: 80%;
+	height: auto;
+	padding-bottom: 25%;
+}
+/* tinkercad image right  */
+img.tcimg2 {
+	float: right;	
+}
+
+/* <a tag class for github image (rps) mobile*/
+.git-img1 {
+	display:flex;
+	width: 50%;
+	height:auto;
+	justify-content:flex-end;
+	padding-left: 20%;
+}
+
+
+.unique-img1 {
+	float: left;
+	
+}
+
  /* words for the grey text my project mobile */
 p.project-title {
 	padding: 0px 30px 20px;
 	font-family: brutal-type;
 	font-size: 20px;
-	color: #7e8186;
+	color: #626469;
 	line-height: 24px;
 	letter-spacing: 3px;
 	
 }
  /* big black text mobile  */
 p.big-black-title {
-	padding: 30px 0px 20px 25px;
+	padding: 30px 15px 20px;
 	font-family: 'Roboto Slab', serif;	
 	font-size: 35px;
 	color: black;
-	line-height: 24px;
+	line-height: 34px;
 	
 }
-
+/* yt vid embedded div tag mobile */
+.iframe-container {
+	padding-top: 20px;
+	display:flex;
+	justify-content: center;
+}
   
 }
 
@@ -488,18 +526,34 @@ p.big-black-title {
 		background-image: url(img/animebg3phone);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 100vh;
+		height: 500vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
 	}
 /* tablet */
 	.unique-section p {
-		padding: 0px 30px 20px;
+		padding: 30px 70px 20px;
 		font-family: 'charukola-unicode-regular';
 		font-size: 16px;
 		color: #50555c;
 		line-height: 24px;
+	}
+
+	.unique-section2{
+		display:flex;
+		justify-content: space-between;
+	}
+	/* code for images in unique section  */
+	.unique-img1,
+	.unique-img2 {
+	width: 100%;
+	height: auto;
+	}
+
+	.unique-section2 img{
+	width: 60%;
+	height: auto;
 	}
 /* my journey grey text tablet  */
 	p.project-title {
@@ -517,8 +571,19 @@ p.big-black-title {
 		font-family: 'Roboto Slab', serif;	
 		font-size: 50px;
 		color: black;
-		line-height: 24px;
+		line-height: 50px;
 		
+	}
+
+	/* yt vid embedded div tag tablet */
+	.iframe-container {
+		padding-top: 20px;
+		display:flex;
+		justify-content:center;
+	}
+	.iframe-container iframe {
+		width: 560px;
+		height: 315px;
 	}
 
 
@@ -699,7 +764,7 @@ p.big-black-title {
 
 
 	/* who i am tags begin laptop*/
-
+	/* code for box holding text  */
 	.box-imgs{
 		width: 50%;
 		height: 50%;
@@ -707,16 +772,13 @@ p.big-black-title {
 		margin-right: auto;
 		padding-bottom: 30%;
 	}
-	
-
+	/*  */
 	.whoiam-section{
 		display:flex;
 		flex-direction: row;
 		padding: 0% 10% 0% 10%; /* top right bottom left */
 		text-align: center;
 		justify-content: center;
-		
-		
 	}
 	.column {
 		display:flex;
@@ -725,11 +787,8 @@ p.big-black-title {
 		padding: 10% 10% 10% 10%;
 		border: 1px solid #D3D3D3;
 		background-color: #e4f6f8;
-		
-
-		
 	}
-
+	/* h1 text for who i am secion  */
 	.column h1{
 		text-align:center;
 		padding-top:0%;
@@ -738,14 +797,12 @@ p.big-black-title {
 		font-size: 30px;
 		line-height: 40px;			
 	}
-
 	.column p{
-	
 	}
 
-		/* What makes me unique section */
+/* What makes me unique section */
 
-	@font-face {
+	@font-face { 
 		font-family: brutal-type;
 		src: url(fonts/BrutalType-Medium.ttf);	
 	}
@@ -756,7 +813,7 @@ p.big-black-title {
 		background-image: url(img/bgimg3pc.jpg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 100vh;
+		height: 400vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -764,11 +821,29 @@ p.big-black-title {
 	}
 	/* <p> for unique section PC  */
 	.unique-section p {
-		padding: 0px 30px 20px;
+		padding: 3% 15% 2%;
 		font-family: 'charukola-unicode-regular';
 		font-size: 16px;
 		color: #50555c;
 		line-height: 24px;
+		text-align: left;
+	}
+
+	.unique-section2{
+		display:flex;
+		justify-content: space-between;
+	}
+	/* code for images in unique section  */
+	.unique-img1,
+	.unique-img2 {
+	width: 60%;
+	height: auto;
+	}
+	/* pc img  styling */
+	.unique-section2 img{
+	width: 30%;
+	height: auto;
+	padding: 0px 200px;
 	}
 	/* grey "my projects" title PC */
 	p.project-title {
@@ -778,6 +853,7 @@ p.big-black-title {
 		color: #7e8186;
 		line-height: 24px;
 		letter-spacing: 3px;
+		text-align: left;
 		
 	}
 	/* big black title PC */
@@ -786,8 +862,20 @@ p.big-black-title {
 		font-family: 'Roboto Slab', serif;	
 		font-size: 60px;
 		color: black;
-		line-height: 24px;
-		
+		line-height: 60px;
+		text-align:left;
+	}
+
+	/* yt vid embedded div tag  pc */
+	.iframe-container {
+		padding-top: 50px;
+		display:flex;
+		justify-content:flex-start;
+		padding-left: 15%;
+	}
+	.iframe-container iframe {
+		width: 760px;
+		height: 515px;
 	}
 
 
