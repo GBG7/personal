@@ -218,7 +218,7 @@ p {
 	background-image: url(img/animebg3phone);
 	background-attachment: fixed;
 	width: 100vw;
-	height: 1100vh;
+	height: 1300vh;
 	background-size:cover;
 	background-repeat:no-repeat;
 	padding-top: 0%;
@@ -533,7 +533,7 @@ p.big-black-title {
 		background-image: url(img/animebg3phone);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 700vh;
+		height: 850vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -596,6 +596,7 @@ p.big-black-title {
 		padding-top: 20px;
 		display:flex;
 		justify-content:center;
+		padding-bottom: 20px;
 	}
 	.iframe-container iframe {
 		width: 560px;
@@ -830,7 +831,7 @@ p.big-black-title {
 		background-image: url(img/bgimg3pc.jpg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 700vh;
+		height: 850vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -896,6 +897,7 @@ p.big-black-title {
 		display:flex;
 		justify-content:flex-start;
 		padding-left: 12.2%;
+		padding-bottom: 20px;
 	}
 	.iframe-container iframe {
 		width: 760px;
