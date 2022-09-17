@@ -348,7 +348,7 @@ p.big-black-title {
 		background-image: url(img/purplecitybg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 200vh;
+		height: 150vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -624,7 +624,7 @@ p.big-black-title {
 		background-image: url(img/purplecitybg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 150vh;
+		height: 180vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -831,7 +831,7 @@ p.big-black-title {
 		background-image: url(img/bgimg3pc.jpg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 850vh;
+		height: 1050vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
@@ -883,7 +883,7 @@ p.big-black-title {
 	}
 	/* big black title PC */
 	p.big-black-title {
-		padding: 30px 0px 20px 290px;
+		padding: 30px 0px 20px 230px;
 		font-family: 'Roboto Slab', serif;	
 		font-size: 60px;
 		color: black;
