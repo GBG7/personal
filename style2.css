@@ -125,33 +125,40 @@ p {
   /* 1st g beside text */
   width: 75%;
   padding: 30px 30px 10px; 	
+  border-radius: 20%;
 }
 
 .astro-img {
   /* 1st img beside text */
   width: 75%;
   padding: 30px 30px 10px;
+  border-radius: 20%;
 	} 
 
 .clubs-img { /* satec club image */
 	width: 75%;
 	padding: 30px 30px 10px;
+	border-radius: 20%;
 }
 .volunteer-img{ /* volunteer image */
 	width: 75%;
 	padding: 30px 30px 10px;
+	border-radius: 20%;
 }
 .competition-img { /* competition image */
 	width: 75%;
 	padding: 30px 30px 10px;
+	border-radius: 20%;
 }
 .work-img { /* work image */
 	width: 75%;
 	padding: 30px 30px 10px;
+	border-radius: 20%;
 }
 .sport-img { /* sport image */
 	width: 75%;
 	padding: 30px 30px 10px;
+	border-radius: 20%;
 }
 
 /* who i am tags begin mobile*/
@@ -449,38 +456,45 @@ p.big-black-title {
 		padding-top: 40px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	  }
 	
 	.astro-img { /* satec astro image  */
 		padding-top: 40px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.clubs-img { /* satec club image */
 		padding-top: 40px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.volunteer-img { /* satec volunteer image */
 		padding-top: 40px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.competition-img { /* satec competition image */
 		padding-top: 40px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.work-img { /* job imges */
 		padding-top: 40px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	
 	.sport-img { /* sport imges */
 		padding-top: 40px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	/* who i am tags begin tablet*/
 
@@ -745,33 +759,39 @@ p.big-black-title {
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	  }
 	
 	.astro-img { /* satec astro image  */
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 
 	.clubs-img { /* satec club image */
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.volunteer-img { /* satec volunteer image */
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.competition-img { /* satec competition image */
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.work-img { /* job imges */
 		padding-top: 20px;
 		width: 100%;
 		height: auto;
+		border-radius: 20%;
 	}
 	.sport-img { /* sport imges */
 		padding-top: 20px;
