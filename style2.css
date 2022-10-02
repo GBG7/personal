@@ -1,318 +1,24 @@
 
 @media only screen and (min-width: 100px){ /* mobile screen */
 
-* {
-  /* default is phone screen styling */
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-  width: 100%;
-}
-
-
-/* css for the socials on the bottom right side  */
-.links { 
-	display:none;
-}
-	
-
-
-.banner-words{
-	text-align: center;
-	font-family:'charukola-unicode-regular', sans-serif;
-	padding-top: 60%;
-	padding-bottom: 0%;
-	color: white;
-}
-
-.bg-img2{
-	background-image: url(img/purplecitybg);
-	background-attachment: fixed;
-	width: 100vw;
-	height: 230vh;
-	background-size:cover;
-	background-repeat: repeat-y;
-	padding-top: 0%;
-}
-/* mobile styling */
-.wrapper2{
-	width: 100vw;
-	margin: 0 auto;
-}
-p {
-  font-family: 'charukola-unicode-regular', sans-serif;
-  color: #50555c;
-}
-
-.title { /* my journey title mobile*/
-	font-family: 'charukola-sans-regular', sans-serif;
-	text-align: center;
-	padding-top: 20%;
-	padding-bottom: 20%;
-	letter-spacing: 3px;
-
-}
-
-.p-title { /* titles mobile */
-	text-align: center;
-	font-family:'charukola-unicode-regular', sans-serif;
-	padding-top: 20%;
-	padding-bottom: 15%;
-	color: white;
-	letter-spacing: 3px;
-}
-
-.img-banner { /* top image aka banner img */
-	background-image: url(img/lainimg2);
-	background-attachment: fixed;
-	width: 100vw;
-	height: 100vh;
-	background-size:cover;
-	background-repeat:no-repeat;
-	padding-bottom:5%;
-  }
-
-.img-info {
-  /* article tag */
-  width: 100%;
-}
-
-.img-info h3 {
-  /* title for job */
-  padding: 20px 30px 10px;
-  font-family: 'charukola-unicode-regular', sans-serif;
-  font-size: 25px;
-}
-
-.img-info h2 {
-  text-align: center;
-  padding-top: 100px;
-  font-family: 'charukola-unicode-regular', sans-serif;
-  font-size: 40px;
-  line-height: 60px;
-}
-
-.img-info p {
-  padding: 0px 30px 20px;
-  font-family: 'charukola-unicode-regular', sans-serif;
-  font-size: 16px;
-  color: #50555c;
-  line-height: 24px;
-}
-
-.img-info ul{/* list css styling */
-	padding: 20px 0px 0px 30px;
-	font-family: 'charukola-unicode-regular', sans-serif;
-	font-size: 16px;
-	color: #50555c;
-	line-height: 30px;
-	padding-left: 10%;
-	padding-right:10%;
-	padding-bottom: 10%;
-}
-.img-info li{
-	line-height: 30px;
-}
-
-
-/*
-    the css code that controls the images is:
-*/
-/*img div tags begin */
-.img-2yb {
-  /* 1st g beside text */
-  width: 75%;
-  padding: 30px 30px 10px; 	
-  border-radius: 20%;
-}
-
-.astro-img {
-  /* 1st img beside text */
-  width: 75%;
-  padding: 30px 30px 10px;
-  border-radius: 20%;
-	} 
-
-.clubs-img { /* satec club image */
-	width: 75%;
-	padding: 30px 30px 10px;
-	border-radius: 20%;
-}
-.volunteer-img{ /* volunteer image */
-	width: 75%;
-	padding: 30px 30px 10px;
-	border-radius: 20%;
-}
-.competition-img { /* competition image */
-	width: 75%;
-	padding: 30px 30px 10px;
-	border-radius: 20%;
-}
-.work-img { /* work image */
-	width: 75%;
-	padding: 30px 30px 10px;
-	border-radius: 20%;
-}
-.sport-img { /* sport image */
-	width: 75%;
-	padding: 30px 30px 10px;
-	border-radius: 20%;
-}
-
-/* who i am tags begin mobile*/
-
-.box-imgs{
-	width: 40%;
-	height:40%;
-	margin-left: auto;
-  	margin-right: auto;
-	padding-bottom: 15%;
-}
-
-.whoiam-section{
-	display:flex;
-	flex-direction: column;
-	padding: 0% 15% 0% 15%; /* top right bottom left */
-	text-align: center !important;
-	
-	
-	
-}
-.column {
-	display:flex;
-	flex-direction:column;
-	text-align: center;
-	padding:10% 10% 10% 10%;
-	background-color: #e4f6f8;
-	border: 1px solid #D3D3D3;
-	border-radius: 25px;
-	
-}
-
-.column h1{
-	text-align:center;
-	padding-top:0%;
-	padding-bottom:10%;
-	font-family: 'Indie Flower', cursive;
-	font-size: 30px;
-	line-height: 40px;		
-	
-}
-
-.green-text{
-	text-align: center;
-	padding: 50px 20px 10px; /* top right bottom left */
-	font-family: 'charukola-unicode-regular', sans-serif;
-	font-size: 16px;
-	color: #50555c;
-	line-height: 24px;
-}
-.column p{
-	text-align:center;
-}
-/* What makes me unique section mobile*/
-
-@font-face {
-	font-family: brutal-type;
-	src: url(fonts/BrutalType-Medium.ttf);	
-}
-
-
-/* bg img unique section mobile  */
-.bg-img3{
-	background-image: url(img/animebg3phone);
-	background-attachment: fixed;
-	width: 100vw;
-	height: 1300vh;
-	background-size:cover;
-	background-repeat:no-repeat;
-	padding-top: 0%;
-}
-/* images*/
-.unique-section2{
-	display:flex;
-	justify-content: space-between;
-}
-/* words for all p unique sectioin  mopbile*/
-.unique-section p {
-	padding: 30px;
-	font-family: 'charukola-unicode-regular';
-	font-size: 16px;
-	color: #3c4046;
-	line-height: 24px;
-	text-align: center;
-  }
-/* code for images in unique section  */
-.unique-section2 img {
-	float: left;
-	width: 80%;
-	height: auto;
-	padding-bottom: 25%;
-}
-/* tinkercad image right  */
-img.tcimg2 {
-	float: right;	
-}
-
-/* <a tag class for github image (rps) mobile*/
-.git-img1 {
-	display:flex;
-	width: 50%;
-	height:auto;
-	justify-content:flex-end;
-	padding-left: 20%;
-}
-/* phone  */
-.xkcd-meme{
-	display:flex;
-	width: 100%;
-	height: auto;
-	padding-left: 8%;
-}
-
-
-.unique-img1 {
-	float: left;
-	
-}
-
- /* words for the grey text my project mobile */
-p.project-title {
-	padding: 0px 30px 20px;
-	font-family: brutal-type;
-	font-size: 20px;
-	color: #626469;
-	line-height: 24px;
-	letter-spacing: 3px;
-	
-}
- /* big black text mobile  */
-p.big-black-title {
-	padding: 30px 15px 20px;
-	font-family: 'Roboto Slab', serif;	
-	font-size: 35px;
-	color: black;
-	line-height: 34px;
-	
-}
-/* yt vid embedded div tag mobile */
-.iframe-container {
-	padding-top: 20px;
-	display:flex;
-	justify-content: center;
-}
-  
-}
-
-/*--------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width:800px) { /* tablet styling 800px */
-	.wrapper {
-		width: 800px;
-		margin: 0 auto;
+	* {
+	  /* default is phone screen styling */
+	  margin: 0;
+	  padding: 0;
 	}
-
+	
+	.wrapper {
+	  width: 100%;
+	}
+	
+	
+	/* css for the socials on the bottom right side  */
+	.links { 
+		display:none;
+	}
+		
+	
+	
 	.banner-words{
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
@@ -320,119 +26,82 @@ p.big-black-title {
 		padding-bottom: 0%;
 		color: white;
 	}
-
-	/* css for the socials on the bottom right side  */
-	.links { 
-		display: flex;
-		text-align: center;
-		font-family:'charukola-unicode-regular', sans-serif;
-		position: fixed; 
-		line-height: 40px;
-		bottom: 100px; /* code controlling le uip & down movement  and left and right below*/
-		left: 5px;
-		border-bottom: 1px solid #ccc;
-	}
-	.links ul {
-		list-style-type: none;
-	}
-	.size {
-		width:25px;
-		height: 25px;
-	}
-
-	.link-line {
-		background-color: #ccc;
-		border:#50555c solid 0px;
-		width: 3px;
-		height: 85px;
-		position: fixed; 
-		bottom: 15px; /* code controlling le uip & down movement  and left and right below*/
-		left: 17px;
-		
-	}
-	/* tablet sstylign */
+	
 	.bg-img2{
 		background-image: url(img/purplecitybg);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 150vh;
+		height: 250vh;
 		background-size:cover;
-		background-repeat:no-repeat;
+		background-repeat: repeat-y;
 		padding-top: 0%;
 	}
-	
+	/* mobile styling */
 	.wrapper2{
 		width: 100vw;
 		margin: 0 auto;
 	}
-
-	.title{ /* my journey tablet */
-		text-align: center;
-		font-family:'charukola-unicode-regular', sans-serif;
-		padding-bottom: 10%;
-		letter-spacing: 3px;	
+	p {
+	  font-family: 'charukola-unicode-regular', sans-serif;
+	  color: #50555c;
 	}
-
-	.p-title{ /* who i am title tablet */
+	
+	.title { /* my journey title mobile*/
+		font-family: 'charukola-sans-regular', sans-serif;
+		text-align: center;
+		padding-top: 20%;
+		padding-bottom: 20%;
+		letter-spacing: 3px;
+	
+	}
+	
+	.p-title { /* titles mobile */
 		text-align: center;
 		font-family:'charukola-unicode-regular', sans-serif;
 		padding-top: 20%;
 		padding-bottom: 15%;
 		color: white;
 		letter-spacing: 3px;
-
-
 	}
+	
 	.img-banner { /* top image aka banner img */
-		background-image: url(img/ipadimg1);
+		background-image: url(img/lainimg2);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 1080px;
+		height: 100vh;
 		background-size:cover;
 		background-repeat:no-repeat;
-		padding-bottom:15%;
+		padding-bottom:5%;
 	  }
-
-	.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
-		display: flex;
-		justify-content: space-around;
-		}
 	
-	.image-holder { /* class for all the images used. they're wrapped in a div */
-			width: 25%;
-			padding-right: 0%;
-		  }
-		  
-		  
-	.img-info { /* tag for all text under my journey section */
-		width:70%;
-		
+	.img-info {
+	  /* article tag */
+	  width: 100%;
 	}
 	
-	.img-info h3{ /* tag for all text under my journey section */
-		padding:40px 0px 0px 30px;
-		font-family:'charukola-unicode-regular', sans-serif;
-		font-size: 25px;
-		
-	}	
-	.img-info h2{/* tag for all text under my journey section */
-		text-align:center;
-		padding-top:100px;
-		padding-bottom:50px;
-		font-family: 'charukola-unicode-regular', sans-serif;
-		font-size: 40px;
-		line-height: 60px;
-			
+	.img-info h3 {
+	  /* title for job */
+	  padding: 20px 30px 10px;
+	  font-family: 'charukola-unicode-regular', sans-serif;
+	  font-size: 25px;
 	}
-	.img-info p{/* tag for all text under my journey section */
-		padding: 20px 0px 0px 30px;
-		padding-right: 30px;
-		font-family: 'charukola-unicode-regular', sans-serif;
-		font-size: 16px;
-		color: #50555c;
-		line-height: 30px;
+	
+	.img-info h2 {
+	  text-align: center;
+	  padding-top: 100px;
+	  font-family: 'charukola-unicode-regular', sans-serif;
+	  font-size: 40px;
+	  line-height: 60px;
 	}
-
+	
+	.img-info p {
+	  padding: 0px 30px 20px;
+	  font-family: 'charukola-unicode-regular', sans-serif;
+	  font-size: 16px;
+	  color: #50555c;
+	  line-height: 24px;
+	}
+	
 	.img-info ul{/* list css styling */
 		padding: 20px 0px 0px 30px;
 		font-family: 'charukola-unicode-regular', sans-serif;
@@ -440,77 +109,75 @@ p.big-black-title {
 		color: #50555c;
 		line-height: 30px;
 		padding-left: 10%;
+		padding-right:10%;
 		padding-bottom: 10%;
-		padding-right: 10%;
 	}
 	.img-info li{
-		line-height: 35px;
+		line-height: 30px;
 	}
-	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
-		padding-bottom: 10%;
-		padding-right: 10%
-	}
-	/* img div tags begin */
 	
-	.img-2yb { /*satec @WA porter img */
-		padding-top: 40px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	  }
 	
-	.astro-img { /* satec astro image  */
-		padding-top: 40px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
+	/*
+		the css code that controls the images is:
+	*/
+	/*img div tags begin */
+	.img-2yb {
+	  /* 1st g beside text */
+	  width: 75%;
+	  padding: 30px 30px 10px; 	
+	  border-radius: 20%;
 	}
+	
+	.astro-img {
+	  /* 1st img beside text */
+	  width: 75%;
+	  padding: 30px 30px 10px;
+	  border-radius: 20%;
+		} 
+	
 	.clubs-img { /* satec club image */
-		padding-top: 40px;
-		width: 100%;
-		height: auto;
+		width: 75%;
+		padding: 30px 30px 10px;
 		border-radius: 20%;
 	}
-	.volunteer-img { /* satec volunteer image */
-		padding-top: 40px;
-		width: 100%;
-		height: auto;
+	.volunteer-img{ /* volunteer image */
+		width: 75%;
+		padding: 30px 30px 10px;
 		border-radius: 20%;
 	}
-	.competition-img { /* satec competition image */
-		padding-top: 40px;
-		width: 100%;
-		height: auto;
+	.competition-img { /* competition image */
+		width: 75%;
+		padding: 30px 30px 10px;
 		border-radius: 20%;
 	}
-	.work-img { /* job imges */
-		padding-top: 40px;
-		width: 100%;
-		height: auto;
+	.work-img { /* work image */
+		width: 75%;
+		padding: 30px 30px 10px;
+		border-radius: 20%;
+	}
+	.sport-img { /* sport image */
+		width: 75%;
+		padding: 30px 30px 10px;
 		border-radius: 20%;
 	}
 	
-	.sport-img { /* sport imges */
-		padding-top: 40px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	}
-	/* who i am tags begin tablet*/
-
+	/* who i am tags begin mobile*/
+	
 	.box-imgs{
-		width: 100%;
-		height: 100%;
+		width: 40%;
+		height:40%;
 		margin-left: auto;
-		margin-right: auto;
-		padding-bottom: 20%;
+		  margin-right: auto;
+		padding-bottom: 15%;
 	}
-
+	
 	.whoiam-section{
 		display:flex;
-		flex-direction: row;
-		padding: 0% 5% 0% 5%; /* top right bottom left */
-		text-align: center;
+		flex-direction: column;
+		padding: 0% 15% 0% 15%; /* top right bottom left */
+		text-align: center !important;
+		
+		
 		
 	}
 	.column {
@@ -520,410 +187,779 @@ p.big-black-title {
 		padding:10% 10% 10% 10%;
 		background-color: #e4f6f8;
 		border: 1px solid #D3D3D3;
+		border-radius: 25px;
 		
 	}
-
+	
 	.column h1{
 		text-align:center;
 		padding-top:0%;
 		padding-bottom:10%;
-		padding-left: 10%;
-		padding-right: 10%;
 		font-family: 'Indie Flower', cursive;
 		font-size: 30px;
-		line-height: 40px;
+		line-height: 40px;		
+		
+	}
+	
+	.green-text{
+		text-align: center;
+		padding: 50px 20px 10px; /* top right bottom left */
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 16px;
+		color: #50555c;
+		line-height: 24px;
+	}
+	.column p{
+		text-align:center;
 	}
 
-	/* What makes me unique section  TABLET */
-
+	.column ul{/* list tablet */
+		text-align: left;
+		font-family: 'charukola-unicode-regular', sans-serif;
+		font-size: 15px;
+		color: #50555c;
+		line-height: 30px;
+	}
+	.column li{
+		line-height: 23px;
+	}
+	/* What makes me unique section mobile*/
+	
 	@font-face {
 		font-family: brutal-type;
 		src: url(fonts/BrutalType-Medium.ttf);	
 	}
-
-
-/* bg img 3 uniquye section tablet  */
+	
+	
+	/* bg img unique section mobile  */
 	.bg-img3{
 		background-image: url(img/animebg3phone);
 		background-attachment: fixed;
 		width: 100vw;
-		height: 850vh;
+		height: 1300vh;
 		background-size:cover;
 		background-repeat:no-repeat;
 		padding-top: 0%;
 	}
-
+	/* images*/
+	.unique-section2{
+		display:flex;
+		justify-content: space-between;
+	}
+	/* words for all p unique sectioin  mopbile*/
+	.unique-section p {
+		padding: 30px;
+		font-family: 'charukola-unicode-regular';
+		font-size: 16px;
+		color: #3c4046;
+		line-height: 24px;
+		text-align: center;
+	  }
+	/* code for images in unique section  */
+	.unique-section2 img {
+		float: left;
+		width: 80%;
+		height: auto;
+		padding-bottom: 25%;
+	}
+	/* tinkercad image right  */
+	img.tcimg2 {
+		float: right;	
+	}
+	
+	/* <a tag class for github image (rps) mobile*/
+	.git-img1 {
+		display:flex;
+		width: 50%;
+		height:auto;
+		justify-content:flex-end;
+		padding-left: 20%;
+	}
 	/* phone  */
 	.xkcd-meme{
 		display:flex;
 		width: 100%;
 		height: auto;
-		padding-left: 12%;
+		padding-left: 8%;
 	}
-
-/* tablet */
-	.unique-section p {
-		padding: 30px 70px 20px;
-		font-family: 'charukola-unicode-regular';
-		font-size: 18px;
-		color: #50555c;
-		line-height: 24px;
+	
+	
+	.unique-img1 {
+		float: left;
+		
 	}
-
-	.unique-section2{
-		display:flex;
-		justify-content: space-between;
-	}
-	/* code for images in unique section  */
-	.unique-img1,
-	.unique-img2 {
-	width: 100%;
-	height: auto;
-	}
-
-	.unique-section2 img{
-	width: 60%;
-	height: auto;
-	}
-/* my journey grey text tablet  */
+	
+	 /* words for the grey text my project mobile */
 	p.project-title {
-		padding: 0px 30px 20px 50px;
+		padding: 0px 30px 20px;
 		font-family: brutal-type;
 		font-size: 20px;
-		color: #7e8186;
+		color: #626469;
 		line-height: 24px;
 		letter-spacing: 3px;
 		
 	}
-/* bbt tablet  */
+	 /* big black text mobile  */
 	p.big-black-title {
-		padding: 30px 0px 20px 45px;
+		padding: 30px 15px 20px;
 		font-family: 'Roboto Slab', serif;	
-		font-size: 50px;
+		font-size: 35px;
 		color: black;
-		line-height: 50px;
+		line-height: 34px;
 		
 	}
-
-	/* yt vid embedded div tag tablet */
+	/* yt vid embedded div tag mobile */
 	.iframe-container {
 		padding-top: 20px;
 		display:flex;
-		justify-content:center;
-		padding-bottom: 20px;
-	}
-	.iframe-container iframe {
-		width: 560px;
-		height: 315px;
-	}
-
-
-}
-/*--------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width:1000px) { /*computer screen styling */
-	.wrapper {
-		width: 1000px;
-		margin: 0 auto;
-	}
-
-	.banner-words{
-		text-align: center;
-		font-family:'charukola-unicode-regular', sans-serif;
-		padding-top: 40%;
-		padding-bottom: 0%;
-		color: white;
-	}
-
-	.bg-img2{
-		background-image: url(img/purplecitybg);
-		background-attachment: fixed;
-		width: 100vw;
-		height: 180vh;
-		background-size:cover;
-		background-repeat:no-repeat;
-		padding-top: 0%;
-	}
-	/* pc styling */
-	.wrapper2{
-		width: 100vw;
-		margin: 0 auto;
-	}
-
-	/* css for the socials on the bottom right side  */
-	.links { 
-		display: flex;
-		text-align: center;
-		font-family:'charukola-unicode-regular', sans-serif;
-		position: fixed; 
-		line-height: 40px;
-		bottom: 100px; /* code controlling le uip & down movement  and left and right below*/
-		left: 50px;
-		border-bottom: 2px solid #ccc;
-	}
-	.links ul {
-		list-style-type: none;
-	}
-
-	.link-line {
-		background-color: #ccc;
-		border:#50555c solid 0px;
-		width: 3px;
-		height: 85px;
-		position: fixed; 
-		bottom: 15px; /* code controlling le uip & down movement  and left and right below*/
-		left: 62px;
-		
-	}
-	.title{ /* my journey pc */
-		text-align: center;
-		font-family:'charukola-unicode-regular', sans-serif;
-		padding-bottom: 15%;
-		letter-spacing: 3px;
-		
-	}
-	.p-title{ /* who i am title pc actual */
-		text-align: center;
-		font-family:'charukola-unicode-regular', sans-serif;
-		padding-top: 10%;
-		padding-bottom: 10%;
-		color: white;
-		letter-spacing: 3px;
-	}
-	
-	.img-banner { /* top image aka banner img */
-		background-image: url(img/eyeimg.webp);
-		background-attachment:fixed;
-		width:100vw;
-		height: 100vh;
-		background-size:cover;
-		background-repeat:no-repeat;
-		padding-bottom:5%;
-	  }
-
-	.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
-		display: flex;
-		justify-content: space-between;
-		}
-	
-	.image-holder { /* class for all the images used. they're wrapped in a div */
-			width: 25%;
-			padding-right: 5%;
-			
-		  }
-			
-			
-	.img-info { /* tag for all text under my journey section */
-		width:70%;	
-	}
-	
-	.img-info h3{ /* tag for all text under my journey section */
-		padding:20px 0px 0px 30px;
-		font-family:'charukola-unicode-regular', sans-serif;
-		font-size: 25px;
-		
-	}	
-	.img-info h2{/* tag for all text under my journey section */
-		text-align:center;
-		padding-top:100px;
-		padding-bottom:50px;
-		font-family: 'charukola-unicode-regular', sans-serif;
-		font-size: 40px;
-		line-height: 60px;
-			
-	}
-	.img-info p{/* tag for all text under my journey section */
-		padding: 20px 0px 0px 30px;
-		font-family: 'charukola-unicode-regular', sans-serif;
-		font-size: 20px;
-		color: #50555c;
-		line-height: 35px;
-	}
-	.img-info ul{/* list css styling */
-		padding: 20px 0px 0px 30px;
-		font-family: 'charukola-unicode-regular', sans-serif;
-		font-size: 20px;
-		color: #50555c;
-		line-height: 30px;
-		padding-left: 10%;
-		padding-bottom: 10%;
-	}
-	.img-info li{
-		line-height: 35px;
-	}
-	p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
-		padding-bottom: 10%;
-	}
-
-	/* le images tags begin */
-	.img-2yb { /*satec @WA porter img */
-		padding-top: 20px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	  }
-	
-	.astro-img { /* satec astro image  */
-		padding-top: 20px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	}
-
-	.clubs-img { /* satec club image */
-		padding-top: 20px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	}
-	.volunteer-img { /* satec volunteer image */
-		padding-top: 20px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	}
-	.competition-img { /* satec competition image */
-		padding-top: 20px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	}
-	.work-img { /* job imges */
-		padding-top: 20px;
-		width: 100%;
-		height: auto;
-		border-radius: 20%;
-	}
-	.sport-img { /* sport imges */
-		padding-top: 20px;
-		width: 100%;
-		height: auto;
-	}
-
-
-	/* who i am tags begin laptop*/
-	/* code for box holding text  */
-	.box-imgs{
-		width: 50%;
-		height: 50%;
-		margin-left: auto;
-		margin-right: auto;
-		padding-bottom: 30%;
-	}
-	/*  */
-	.whoiam-section{
-		display:flex;
-		flex-direction: row;
-		padding: 0% 10% 0% 10%; /* top right bottom left */
-		text-align: center;
 		justify-content: center;
 	}
-	.column {
-		display:flex;
-		flex-direction:column;
-		text-align: center;
-		padding: 10% 10% 10% 10%;
-		border: 1px solid #D3D3D3;
-		background-color: #e4f6f8;
+	  
 	}
-	/* h1 text for who i am secion  */
-	.column h1{
-		text-align:center;
-		padding-top:0%;
-		padding-bottom:10%;
-		font-family: 'Indie Flower', cursive;  
-		font-size: 40px;
-		line-height: 40px;			
-	}
-	.column p{
-		font-size: 20px;
-	}
+	
+	/*--------------------------------------------------------------------------------------------------*/
+	@media only screen and (min-width:800px) { /* tablet styling 800px */
+		.wrapper {
+			width: 800px;
+			margin: 0 auto;
+		}
+	
+		.banner-words{
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			padding-top: 60%;
+			padding-bottom: 0%;
+			color: white;
+		}
+	
+		/* css for the socials on the bottom right side  */
+		.links { 
+			display: flex;
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			position: fixed; 
+			line-height: 40px;
+			bottom: 100px; /* code controlling le uip & down movement  and left and right below*/
+			left: 5px;
+			border-bottom: 1px solid #ccc;
+		}
+		.links ul {
+			list-style-type: none;
+		}
+		.size {
+			width:25px;
+			height: 25px;
+		}
+	
+		.link-line {
+			background-color: #ccc;
+			border:#50555c solid 0px;
+			width: 3px;
+			height: 85px;
+			position: fixed; 
+			bottom: 15px; /* code controlling le uip & down movement  and left and right below*/
+			left: 17px;
+			
+		}
+		/* tablet sstylign */
+		.bg-img2{
+			background-image: url(img/purplecitybg);
+			background-attachment: fixed;
+			width: 100vw;
+			height: 150vh;
+			background-size:cover;
+			background-repeat:no-repeat;
+			padding-top: 0%;
+		}
+		
+		.wrapper2{
+			width: 100vw;
+			margin: 0 auto;
+		}
+	
+		.title{ /* my journey tablet */
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			padding-bottom: 10%;
+			letter-spacing: 3px;	
+		}
+	
+		.p-title{ /* who i am title tablet */
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			padding-top: 20%;
+			padding-bottom: 15%;
+			color: white;
+			letter-spacing: 3px;
+	
+	
+		}
+		.img-banner { /* top image aka banner img */
+			background-image: url(img/ipadimg1);
+			background-attachment: fixed;
+			width: 100vw;
+			height: 1080px;
+			background-size:cover;
+			background-repeat:no-repeat;
+			padding-bottom:15%;
+		  }
+	
+		.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
+			display: flex;
+			justify-content: space-around;
+			}
+		
+		.image-holder { /* class for all the images used. they're wrapped in a div */
+				width: 25%;
+				padding-right: 0%;
+			  }
+			  
+			  
+		.img-info { /* tag for all text under my journey section */
+			width:70%;
+			
+		}
+		
+		.img-info h3{ /* tag for all text under my journey section */
+			padding:40px 0px 0px 30px;
+			font-family:'charukola-unicode-regular', sans-serif;
+			font-size: 25px;
+			
+		}	
+		.img-info h2{/* tag for all text under my journey section */
+			text-align:center;
+			padding-top:100px;
+			padding-bottom:50px;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 40px;
+			line-height: 60px;
+				
+		}
+		.img-info p{/* tag for all text under my journey section */
+			padding: 20px 0px 0px 30px;
+			padding-right: 30px;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 16px;
+			color: #50555c;
+			line-height: 30px;
+		}
+	
+		.img-info ul{/* list css styling */
+			padding: 20px 0px 0px 30px;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 16px;
+			color: #50555c;
+			line-height: 30px;
+			padding-left: 10%;
+			padding-bottom: 10%;
+			padding-right: 10%;
+		}
+		.img-info li{
+			line-height: 35px;
+		}
+		p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
+			padding-bottom: 10%;
+			padding-right: 10%
+		}
+		/* img div tags begin */
+		
+		.img-2yb { /*satec @WA porter img */
+			padding-top: 40px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		  }
+		
+		.astro-img { /* satec astro image  */
+			padding-top: 40px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.clubs-img { /* satec club image */
+			padding-top: 40px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.volunteer-img { /* satec volunteer image */
+			padding-top: 40px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.competition-img { /* satec competition image */
+			padding-top: 40px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.work-img { /* job imges */
+			padding-top: 40px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		
+		.sport-img { /* sport imges */
+			padding-top: 40px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		/* who i am tags begin tablet*/
+	
+		.box-imgs{
+			width: 60%;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 20%;
+		}
+	
+		.whoiam-section{
+			display:flex;
+			flex-direction: row;
+			padding-left: 0%; 
+			padding-right: 20%;
+			text-align: center;
+			
+		}
 
-/* What makes me unique section */
 
-	@font-face { 
-		font-family: brutal-type;
-		src: url(fonts/BrutalType-Medium.ttf);	
-	}
+		/* tablet  */
+		.column {
+			display:flex;
+			flex-direction:column;
+			text-align: center;
+			padding: 10% 10% 10% 10%;
+			border: 1px solid #D3D3D3;
+			background-color: #e4f6f8;
+		}
+	
+		.column h1{
+			text-align:center;
+			padding-top:0%;
+			padding-bottom:10%;
+			padding-left: 10%;
+			padding-right: 10%;
+			font-family: 'Indie Flower', cursive;
+			font-size: 30px;
+			line-height: 40px;
+		}
 
-
-	/* anime white img for unique seciton PC */
-	.bg-img3{ 
-		background-image: url(img/bgimg3pc.jpg);
-		background-attachment: fixed;
-		width: 100vw;
-		height: 1050vh;
-		background-size:cover;
-		background-repeat:no-repeat;
-		padding-top: 0%;
-
-	}
-
-	.xkcd-meme{
-		display:flex;
+		.column ul{/* list tablet */
+			text-align: left;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 16px;
+			color: #50555c;
+			line-height: 30px;
+		}
+		.column li{
+			line-height: 23px;
+		}
+	
+		/* What makes me unique section  TABLET */
+	
+		@font-face {
+			font-family: brutal-type;
+			src: url(fonts/BrutalType-Medium.ttf);	
+		}
+	
+	
+	/* bg img 3 uniquye section tablet  */
+		.bg-img3{
+			background-image: url(img/animebg3phone);
+			background-attachment: fixed;
+			width: 100vw;
+			height: 850vh;
+			background-size:cover;
+			background-repeat:no-repeat;
+			padding-top: 0%;
+		}
+	
+		/* phone  */
+		.xkcd-meme{
+			display:flex;
+			width: 100%;
+			height: auto;
+			padding-left: 12%;
+		}
+	
+	/* tablet */
+		.unique-section p {
+			padding: 30px 70px 20px;
+			font-family: 'charukola-unicode-regular';
+			font-size: 18px;
+			color: #50555c;
+			line-height: 24px;
+		}
+	
+		.unique-section2{
+			display:flex;
+			justify-content: space-between;
+		}
+		/* code for images in unique section  */
+		.unique-img1,
+		.unique-img2 {
 		width: 100%;
 		height: auto;
-		padding-left: 25%;
+		}
+	
+		.unique-section2 img{
+		width: 60%;
+		height: auto;
+		}
+	/* my journey grey text tablet  */
+		p.project-title {
+			padding: 0px 30px 20px 50px;
+			font-family: brutal-type;
+			font-size: 20px;
+			color: #7e8186;
+			line-height: 24px;
+			letter-spacing: 3px;
+			
+		}
+	/* bbt tablet  */
+		p.big-black-title {
+			padding: 30px 0px 20px 45px;
+			font-family: 'Roboto Slab', serif;	
+			font-size: 50px;
+			color: black;
+			line-height: 50px;
+			
+		}
+	
+		/* yt vid embedded div tag tablet */
+		.iframe-container {
+			padding-top: 20px;
+			display:flex;
+			justify-content:center;
+			padding-bottom: 20px;
+		}
+		.iframe-container iframe {
+			width: 560px;
+			height: 315px;
+		}
+	
+	
 	}
-	/* <p> for unique section PC  */
-	.unique-section p {
-		padding: 3% 12.2% 2%;
-		font-family: 'charukola-unicode-regular';
-		font-size: 20px;
-		color: #50555c;
-		line-height: 35px;
-		text-align: left;
-	}
-
-	.unique-section2{
-		display:flex;
-		justify-content: space-between;
-	}
-	/* code for images in unique section  */
-	.unique-img1,
-	.unique-img2 {
-	width: 60%;
-	height: auto;
-	}
-	/* pc img  styling */
-	.unique-section2 img{
-	width: 30%;
-	height: auto;
-	padding: 0px 200px;
-	}
-	/* grey "my projects" title PC */
-	p.project-title {
-		padding: 0px 300px 20px;
-		font-family: brutal-type;
-		font-size: 20px;
-		color: #7e8186;
-		line-height: 24px;
-		letter-spacing: 3px;
-		text-align: left;
+	/*--------------------------------------------------------------------------------------------------*/
+	@media only screen and (min-width:1000px) { /*computer screen styling */
+		.wrapper {
+			width: 1000px;
+			margin: 0 auto;
+		}
+	
+		.banner-words{
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			padding-top: 40%;
+			padding-bottom: 0%;
+			color: white;
+		}
+	
+		.bg-img2{
+			background-image: url(img/purplecitybg);
+			background-attachment: fixed;
+			width: 100vw;
+			height: 180vh;
+			background-size:cover;
+			background-repeat:no-repeat;
+			padding-top: 0%;
+		}
+		/* pc styling */
+		.wrapper2{
+			width: 100vw;
+			margin: 0 auto;
+		}
+	
+		/* css for the socials on the bottom right side  */
+		.links { 
+			display: flex;
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			position: fixed; 
+			line-height: 40px;
+			bottom: 100px; /* code controlling le uip & down movement  and left and right below*/
+			left: 50px;
+			border-bottom: 2px solid #ccc;
+		}
+		.links ul {
+			list-style-type: none;
+		}
+	
+		.link-line {
+			background-color: #ccc;
+			border:#50555c solid 0px;
+			width: 3px;
+			height: 85px;
+			position: fixed; 
+			bottom: 15px; /* code controlling le uip & down movement  and left and right below*/
+			left: 62px;
+			
+		}
+		.title{ /* my journey pc */
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			padding-bottom: 15%;
+			letter-spacing: 3px;
+			
+		}
+		.p-title{ /* who i am title pc actual */
+			text-align: center;
+			font-family:'charukola-unicode-regular', sans-serif;
+			padding-top: 10%;
+			padding-bottom: 10%;
+			color: white;
+			letter-spacing: 3px;
+		}
 		
-	}
-	/* big black title PC */
-	p.big-black-title {
-		padding: 30px 0px 20px 230px;
-		font-family: 'Roboto Slab', serif;	
-		font-size: 60px;
-		color: black;
-		line-height: 60px;
-		text-align:left;
-	}
+		.img-banner { /* top image aka banner img */
+			background-image: url(img/eyeimg.webp);
+			background-attachment:fixed;
+			width:100vw;
+			height: 100vh;
+			background-size:cover;
+			background-repeat:no-repeat;
+			padding-bottom:5%;
+		  }
+	
+		.article { /* class for <section> tag. wraps around all text & img for each section or mai journey */
+			display: flex;
+			justify-content: space-between;
+			}
+		
+		.image-holder { /* class for all the images used. they're wrapped in a div */
+				width: 25%;
+				padding-right: 5%;
+				
+			  }
+				
+				
+		.img-info { /* tag for all text under my journey section */
+			width:70%;	
+		}
+		
+		.img-info h3{ /* tag for all text under my journey section */
+			padding:20px 0px 0px 30px;
+			font-family:'charukola-unicode-regular', sans-serif;
+			font-size: 25px;
+			
+		}	
+		.img-info h2{/* tag for all text under my journey section */
+			text-align:center;
+			padding-top:100px;
+			padding-bottom:50px;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 40px;
+			line-height: 60px;
+				
+		}
+		.img-info p{/* tag for all text under my journey section */
+			padding: 20px 0px 0px 30px;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 20px;
+			color: #50555c;
+			line-height: 35px;
+		}
+		.img-info ul{/* list css styling */
+			padding: 20px 0px 0px 30px;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 20px;
+			color: #50555c;
+			line-height: 30px;
+			padding-left: 10%;
+			padding-bottom: 10%;
+		}
+		.img-info li{
+			line-height: 35px;
+		}
+		p.para { /* long text paragraphs. This is used for adding padding at the bottom to give each section space.*/
+			padding-bottom: 10%;
+		}
+	
+		/* le images tags begin */
+		.img-2yb { /*satec @WA porter img */
+			padding-top: 20px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		  }
+		
+		.astro-img { /* satec astro image  */
+			padding-top: 20px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+	
+		.clubs-img { /* satec club image */
+			padding-top: 20px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.volunteer-img { /* satec volunteer image */
+			padding-top: 20px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.competition-img { /* satec competition image */
+			padding-top: 20px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.work-img { /* job imges */
+			padding-top: 20px;
+			width: 100%;
+			height: auto;
+			border-radius: 20%;
+		}
+		.sport-img { /* sport imges */
+			padding-top: 20px;
+			width: 100%;
+			height: auto;
+		}
+	
+	
+		/* who i am tags begin laptop*/
+		/* code for box holding text  */
+		.box-imgs{
+			width: 50%;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 30%;
+		}
+		/*  */
+		.whoiam-section{
+			display:flex;
+			flex-direction: row;
+			padding: 0% 10% 0% 10%; /* top right bottom left */
+			text-align: center;
+			justify-content: center;
+		}
+		/* pc  */
+		.column { 
+			display:flex;
+			flex-direction:column;
+			text-align: center;
+			padding: 10% 10% 10% 10%;
+			border: 1px solid #D3D3D3;
+			background-color: #e4f6f8;
+		}
+		/* h1 text for who i am secion  */
+		.column h1{
+			text-align:center;
+			padding-top:0%;
+			padding-bottom:10%;
+			font-family: 'Indie Flower', cursive;  
+			font-size: 40px;
+			line-height: 40px;			
+		}
+		.column p{
+			font-size: 20px;
+		}
 
-	/* yt vid embedded div tag  pc */
-	.iframe-container {
-		padding-top: 50px;
-		display:flex;
-		justify-content:flex-start;
-		padding-left: 12.2%;
-		padding-bottom: 20px;
+		.column ul{/* list tablet */
+			text-align: left;
+			font-family: 'charukola-unicode-regular', sans-serif;
+			font-size: 20px;
+			color: #50555c;
+			line-height: 30px;
+		}
+		.column li{
+			line-height: 23px;
+		}
+	
+	/* What makes me unique section */
+	
+		@font-face { 
+			font-family: brutal-type;
+			src: url(fonts/BrutalType-Medium.ttf);	
+		}
+	
+	
+		/* anime white img for unique seciton PC */
+		.bg-img3{ 
+			background-image: url(img/bgimg3pc.jpg);
+			background-attachment: fixed;
+			width: 100vw;
+			height: 1050vh;
+			background-size:cover;
+			background-repeat:no-repeat;
+			padding-top: 0%;
+	
+		}
+	
+		.xkcd-meme{
+			display:flex;
+			width: 100%;
+			height: auto;
+			padding-left: 25%;
+		}
+		/* <p> for unique section PC  */
+		.unique-section p {
+			padding: 3% 12.2% 2%;
+			font-family: 'charukola-unicode-regular';
+			font-size: 20px;
+			color: #50555c;
+			line-height: 35px;
+			text-align: left;
+		}
+	
+		.unique-section2{
+			display:flex;
+			justify-content: space-between;
+		}
+		/* code for images in unique section  */
+		.unique-img1,
+		.unique-img2 {
+		width: 60%;
+		height: auto;
+		}
+		/* pc img  styling */
+		.unique-section2 img{
+		width: 30%;
+		height: auto;
+		padding: 0px 200px;
+		}
+		/* grey "my projects" title PC */
+		p.project-title {
+			padding: 0px 300px 20px;
+			font-family: brutal-type;
+			font-size: 20px;
+			color: #7e8186;
+			line-height: 24px;
+			letter-spacing: 3px;
+			text-align: left;
+			
+		}
+		/* big black title PC */
+		p.big-black-title {
+			padding: 30px 0px 20px 230px;
+			font-family: 'Roboto Slab', serif;	
+			font-size: 60px;
+			color: black;
+			line-height: 60px;
+			text-align:left;
+		}
+	
+		/* yt vid embedded div tag  pc */
+		.iframe-container {
+			padding-top: 50px;
+			display:flex;
+			justify-content:flex-start;
+			padding-left: 12.2%;
+			padding-bottom: 20px;
+		}
+		.iframe-container iframe {
+			width: 760px;
+			height: 515px;
+		}
+	
+	
 	}
-	.iframe-container iframe {
-		width: 760px;
-		height: 515px;
-	}
-
-
-}
-
