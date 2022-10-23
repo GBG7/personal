@@ -314,8 +314,33 @@
 		display:flex;
 		justify-content: center;
 	}
-	  
+	/* mobile <----- */
+	/* caption for left tinkercad link */
+	p.caption1 {		
+		font-family: 'charukola-unicode-regular';
+		font-size: 14px;
+		color: #626469;
+		line-height: 20px;
+		padding-left: 10px;	
 	}
+	/* caption for right tinkercad link */
+	p.caption2 {
+		font-family: 'charukola-unicode-regular';
+		font-size: 14px;
+		color: #626469;
+		line-height: 20px;
+		padding-left: 60px;
+		/* padding-bottom: 0px;	 */
+	}
+
+	p.git-caption{
+		font-family: 'charukola-unicode-regular';
+		font-size: 14px;
+		color: #626469;
+		
+	}
+
+}
 	
 	/*--------------------------------------------------------------------------------------------------*/
 	@media only screen and (min-width:800px) { /* tablet styling 800px */
@@ -640,6 +665,21 @@
 		.iframe-container iframe {
 			width: 560px;
 			height: 315px;
+		}
+
+			/* caption for left tinkercad link */
+		p.caption1 {		
+			font-family: 'charukola-unicode-regular';
+			font-size: 16px;
+			color: #626469;
+			padding: 50px 0px 0px;
+		}
+		/* caption for right tinkercad link */
+		p.caption2 {
+			font-family: 'charukola-unicode-regular';
+			font-size: 16px;
+			color: #626469;
+			
 		}
 	
 	
